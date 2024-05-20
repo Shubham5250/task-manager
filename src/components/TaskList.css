@@ -1,0 +1,32 @@
+/* src/components/TaskList.css */
+.task-list-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .task-list {
+    width: 100%;
+  }
+  
+
+  /* src/components/TaskList.css */
+.edit-button {
+    background-color: rgb(35, 180, 81);
+    color: white; /* Optionally adjust text color */
+  }
+
+  .edit-button:hover {
+    background-color: rgb(34, 140, 68);
+    color: white; /* Optionally adjust text color */
+  }
+  
+  .delete-button {
+    background-color: red;
+    color: white; /* Optionally adjust text color */
+  }
+
+  .delete-button:hover {
+    background-color: rgb(181, 32, 32);
+    color: white; /* Optionally adjust text color */
+  }
+  
